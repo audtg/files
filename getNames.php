@@ -1,5 +1,4 @@
 <?php
-require_once('dbFunctions.php');
 
 $result = array();
 

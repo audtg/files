@@ -37,6 +37,28 @@ function getNames() {
     return $result;
 }
 
+function getNamesByCategory($category) {
+    $result = array();
+    $preparedSQL = ibase_prepare('SELECT NAME FROM MYPICTURES WHERE CATEGORY= ? ORDER BY NAME');
+    try {
+        $sth = ibase_execute($preparedSQL, $category);
+    } catch (ErrorException $e) {
+        @file_put_contents('logfile.log', $e->getMessage()."\r\n", FILE_APPEND | LOCK_EX);
+    }
+    if ($sth && $res =  get_resource_type($sth)) {
+        try{
+            while($row = ibase_fetch_object($sth)) {
+                $result[] = $row->NAME;
+            }
+            ibase_free_result($sth);
+        } catch (ErrorException $e) {
+            @file_put_contents('logfile.log', $e->getMessage().' $sth= '.$sth."\r\n", FILE_APPEND | LOCK_EX);
+        }
+    }
+    return $result;
+}
+
+
 function saveFilesToDb($dbh, $data) {
     $result = array();
     $preparedSQL = ibase_prepare('INSERT INTO MYPICTURES (CATEGORY, NAME, PICTURE) VALUES (?, ?, ?) RETURNING NAME ');

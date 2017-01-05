@@ -4,8 +4,25 @@ var_dump($_COOKIE);
 
 var_dump($_SESSION);
 
-echo ini_get('session.name').'<br>';
-echo ini_get('session.save_path');
+//echo ini_get('session.name').'<br>';
+echo ini_get('session.save_path').'<br>';
+foreach (scandir(ini_get('session.save_path')) as $value) {
+
+    foreach ($_COOKIE as $cookieName => $cookieValue) {
+
+        if (preg_match('/'.$cookieValue.'/', $value, $matches)== 1) {
+//            $context = stream_context_create();
+            $handle = fopen(ini_get('session.save_path').$value, 'r');
+            $content = fread($handle, filesize(ini_get('session.save_path').$value));
+            fclose($handle);
+            echo 'content = '.($content == false ? 0 : 1);
+            echo '<br>';
+//            echo $cookieName.' =  '. file_get_contents(ini_get('session.save_path').$value).'<br>';
+        }
+
+    }
+}
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

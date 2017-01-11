@@ -4,9 +4,31 @@ $host = 'localhost:C:\Program Files\Firebird\Firebird_2_5\data\test.fdb';
 $username = 'sysdbaqq';
 $password = 'masterkey';
 
-error_reporting(E_ERROR | E_CORE_ERROR | E_USER_ERROR);
+function exception_error_handler($severity, $message, $file, $line) {
+    if (!(error_reporting() & $severity)) {
+        // Этот код ошибки не входит в error_reporting
+        return;
+    }
+    throw new ErrorException($message, 0, $severity, $file, $line);
+}
+set_error_handler("exception_error_handler");
 
-$dbh = ibase_connect($host, $username, $password, 'utf-8');
+//echo error_reporting(E_ERROR | E_CORE_ERROR | E_USER_ERROR);
+//echo '<br>';
+//echo error_reporting();
+
+try {
+    $dbh = ibase_connect($hosta, $username, $password, 'utf-8');
+} catch (ErrorException $e) {
+    echo 'error<br>';
+    echo $e->getCode().'<br>';
+    echo $e->getMessage().'<br>';
+    echo $e->getLine().'<br>';
+    echo $e->getFile().'<br>';
+    echo ibase_errcode() . '<br>';
+    echo ibase_errmsg() . '<br>';
+}
+
 
 
 var_dump(intval(ibase_errcode()));

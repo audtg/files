@@ -7,18 +7,6 @@ require_once __DIR__ . '/PHPExcel/Classes/PHPExcel/Writer/CSV.php';
 require_once __DIR__ . '/../Faker/src/autoload.php';
 require_once __DIR__ . '/headers.php';
 
-//var_dump($headers[0]);
-
-function exception_error_handler($severity, $message, $file, $line)
-{
-    if (!(error_reporting() & $severity)) {
-        // Этот код ошибки не входит в error_reporting
-        return;
-    }
-    throw new ErrorException($message, 0, $severity, $file, $line);
-}
-
-set_error_handler("exception_error_handler");
 
 $objPHPExcel = new PHPExcel();
 
@@ -36,12 +24,6 @@ $info = array();
 
 $faker = Faker\Factory::create('ru_RU');
 
-//file_put_contents('headers.log', print_r($headers, true));
-
-//for ($j = 0; $j <= count($headers) - 1; $j++) {
-////    $sheet->setCellValueByColumnAndRow($j, 1, $headers[$j]);
-//file_put_contents('log.log', $headers[$j]."\r\n", FILE_APPEND);
-//}
 
 for ($i = 1; $i <= 10; $i++) {
     $info[$i]['artAuvix'] = $faker->randomNumber();

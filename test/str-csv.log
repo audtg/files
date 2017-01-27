@@ -2,101 +2,101 @@ Array
 (
     [0] => Array
         (
-            [0] => ﻿Артикул
-            [1] => Артикул холдинга
-            [2] => Партнамбер
-            [3] => Модель
-            [4] => Наименование
+            [MAT_ID] => ﻿Артикул
+            [MAT_DILER_ID] => Артикул холдинга
+            [PART_NO] => Партнамбер
+            [MODEL] => Модель
+            [NAME] => Наименование
         )
 
     [1] => Array
         (
-            [0] => 9
-            [1] => martynov.vladislav
-            [2] => GBABW,K7PGVW
-            [3] => ООО АсбоцементЛифт
-            [4] => Totam nostrum minus quia corrupti aliquam unde.
+            [MAT_ID] => 9
+            [MAT_DILER_ID] => martynov.vladislav
+            [PART_NO] => GBABW,K7PGVW
+            [MODEL] => ООО АсбоцементЛифт
+            [NAME] => Totam nostrum minus quia corrupti aliquam unde.
         )
 
     [2] => Array
         (
-            [0] => 826368652
-            [1] => olytkin
-            [2] => SIKHCIF1I2T
-            [3] => ОАО, Т","верь,Тверь
-            [4] => Aperiam eos in quaerat consequuntur aperiam fugiat pariatur a.
+            [MAT_ID] => 826368652
+            [MAT_DILER_ID] => olytkin
+            [PART_NO] => SIKHC><IF1>I<T
+            [MODEL] => ОАО, Т","верь,Тверь
+            [NAME] => Aperiam eos in quaerat consequuntur aperiam fugiat pariatur a.
         )
 
     [3] => Array
         (
-            [0] => 43151138
-            [1] => prokorov.anastasiy
-            [2] => VFQD"OCAI
-            [3] => ОАО Урал"Тверь
-            [4] => Expedita corrupti suscipit eveniet quia.
+            [MAT_ID] => 43151138
+            [MAT_DILER_ID] => prokorov.anastasiy
+            [PART_NO] => VFQD"OCAI
+            [MODEL] => ОАО Урал"Тверь
+            [NAME] => Expedita corrupti suscipit eveniet quia.
         )
 
     [4] => Array
         (
-            [0] => 1
-            [1] => ekaterina.kulagin
-            [2] => DBVFNRQW
-            [3] => ООО Рос
-            [4] => Esse aliquid consequuntur occaecati odit deleniti repudiandae.
+            [MAT_ID] => 1
+            [MAT_DILER_ID] => ekaterina.kulagin
+            [PART_NO] => DBVFNRQW
+            [MODEL] => ООО Рос
+            [NAME] => Esse aliquid consequuntur occaecati odit deleniti repudiandae.
         )
 
     [5] => Array
         (
-            [0] => 5
-            [1] => semen35
-            [2] => UFLPUR2ZG4H
-            [3] => ООО Ком"пания ЖелДорЦемент
-            [4] => Repellat eveniet sapiente velit veniam harum.
+            [MAT_ID] => 5
+            [MAT_DILER_ID] => semen35
+            [PART_NO] => UFLPUR2ZG4H
+            [MODEL] => ООО Ком"пания ЖелДорЦемент
+            [NAME] => Repellat eveniet sapiente velit veniam harum.
         )
 
     [6] => Array
         (
-            [0] => 0
-            [1] => srybov
-            [2] => DOSPBGSN90E
-            [3] => ЗАО ТекстильТверь
-            [4] => Qui voluptatum ex aut.
+            [MAT_ID] => 0
+            [MAT_DILER_ID] => srybov
+            [PART_NO] => DOSPBGSN90E
+            [MODEL] => ЗАО ТекстильТверь
+            [NAME] => Qui voluptatum ex aut.
         )
 
     [7] => Array
         (
-            [0] => 369517
-            [1] => dzykov
-            [2] => QGSBXTTG
-            [3] => ОАО Креп
-            [4] => Natus non aut et atque repellendus ut dolor.
+            [MAT_ID] => 369517
+            [MAT_DILER_ID] => dzykov
+            [PART_NO] => QGSBXTTG
+            [MODEL] => ОАО Креп
+            [NAME] => Natus non aut et atque repellendus ut dolor.
         )
 
     [8] => Array
         (
-            [0] => 634069
-            [1] => lkulagin
-            [2] => UEVUYCAN3HG
-            [3] => ОАО ЦементБухТеле
-            [4] => Cum non laboriosam quidem deleniti praesentium.
+            [MAT_ID] => 634069
+            [MAT_DILER_ID] => lkulagin
+            [PART_NO] => UEVUYCAN3HG
+            [MODEL] => ОАО ЦементБухТеле
+            [NAME] => Cum non laboriosam quidem deleniti praesentium.
         )
 
     [9] => Array
         (
-            [0] => 47774
-            [1] => marina98
-            [2] => QHUGRWHJ
-            [3] => ОАО ЖелДор
-            [4] => Enim omnis temporibus deserunt consequatur est magni voluptas.
+            [MAT_ID] => 47774
+            [MAT_DILER_ID] => marina98
+            [PART_NO] => QHUGRWHJ
+            [MODEL] => ОАО ЖелДор
+            [NAME] => Enim omnis temporibus deserunt consequatur est magni voluptas.
         )
 
     [10] => Array
         (
-            [0] => 2596
-            [1] => nazarov.arkadii
-            [2] => VEZCOSVO
-            [3] => ЗАО ОблТранс
-            [4] => Veritatis eius perferendis iure temporibus aut.
+            [MAT_ID] => 2596
+            [MAT_DILER_ID] => nazarov.arkadii
+            [PART_NO] => VEZCOSVO
+            [MODEL] => ЗАО ОблТранс
+            [NAME] => Veritatis eius perferendis iure temporibus aut.
         )
 
 )

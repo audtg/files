@@ -47,6 +47,7 @@ function xml2assoc($xml, $name)
     {
         if($xml->nodeType == XMLReader::END_ELEMENT)
         {
+            file_put_contents('tree-xml.log', print_r($tree, true));
             return $tree;
         }
         else if($xml->nodeType == XMLReader::ELEMENT)
@@ -56,7 +57,11 @@ function xml2assoc($xml, $name)
             {
                 $childs = xml2assoc($xml, $tag);
             }
-            $tree[] = array($tag => $childs);
+            if(count($childs) > 1) {
+                $tree[] = array($tag => $childs);
+            } else {
+                $tree[$tag] = $childs;
+            }
         }
 
         else if($xml->nodeType == XMLReader::TEXT)
@@ -70,7 +75,7 @@ function xml2assoc($xml, $name)
 
 $xml = new XMLReader();
 $xml->open('test.xml');
-$assoc = xml2assoc($xml, 'data');
+$assoc = xml2assoc($xml, 'root');
 $xml->close();
 
 var_dump($assoc);
@@ -82,4 +87,4 @@ var_dump($obj);
 
 
 
-file_put_contents('str-xml.log', print_r($assoc, true));
+file_put_contents('str-xml.log', print_r($assoc[0]['data'][0]['materials'], true));

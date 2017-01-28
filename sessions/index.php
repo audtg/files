@@ -1,8 +1,10 @@
 <?php
 session_start();
+
 //header('Location: /sessions');
 var_dump($_COOKIE);
 var_dump($_REQUEST);
+
 
 var_dump($_SESSION);
 

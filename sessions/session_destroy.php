@@ -5,4 +5,5 @@ session_id($_REQUEST['session_destroy']);
 
 session_destroy();
 
-echo '<a href="index.php">Home</a>';
+echo '<a href="index-1.php">Home</a>';
+

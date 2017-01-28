@@ -1,0 +1,362 @@
+Array
+(
+    [0] => Array
+        (
+            [data] => Array
+                (
+                    [0] => Array
+                        (
+                            [info] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [created] => 27.01.2017 01:25
+                                        )
+
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [materials] => Array
+                                (
+                                    [0] => Array
+                                        (
+                                            [material] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [MAT_ID] => 9
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [MAT_DILER_ID] => martynov.vladislav
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [PART_NO] => GBABW,K7PGVW
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [MODEL] => ООО АсбоцементЛифт
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [NAME] => Totam nostrum minus quia corrupti aliquam unde.
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [1] => Array
+                                        (
+                                            [material] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [MAT_ID] => 826368652
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [MAT_DILER_ID] => olytkin
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [PART_NO] => SIKHC><IF1>I<T
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [MODEL] => ОАО, Т","верь,Тверь
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [NAME] => Aperiam eos in quaerat consequuntur aperiam fugiat pariatur a.
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [2] => Array
+                                        (
+                                            [material] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [MAT_ID] => 43151138
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [MAT_DILER_ID] => prokorov.anastasiy
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [PART_NO] => VFQD"OCAI
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [MODEL] => ОАО Урал"Тверь
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [NAME] => Expedita corrupti suscipit eveniet quia.
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [3] => Array
+                                        (
+                                            [material] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [MAT_ID] => 1
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [MAT_DILER_ID] => ekaterina.kulagin
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [PART_NO] => DBVFNRQW
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [MODEL] => ООО Рос
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [NAME] => Esse aliquid consequuntur occaecati odit deleniti repudiandae.
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [4] => Array
+                                        (
+                                            [material] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [MAT_ID] => 5
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [MAT_DILER_ID] => semen35
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [PART_NO] => UFLPUR2ZG4H
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [MODEL] => ООО Ком"пания ЖелДорЦемент
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [NAME] => Repellat eveniet sapiente velit veniam harum.
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [5] => Array
+                                        (
+                                            [material] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [MAT_ID] => 0
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [MAT_DILER_ID] => srybov
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [PART_NO] => DOSPBGSN90E
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [MODEL] => ЗАО ТекстильТверь
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [NAME] => Qui voluptatum ex aut.
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [6] => Array
+                                        (
+                                            [material] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [MAT_ID] => 369517
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [MAT_DILER_ID] => dzykov
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [PART_NO] => QGSBXTTG
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [MODEL] => ОАО Креп
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [NAME] => Natus non aut et atque repellendus ut dolor.
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [7] => Array
+                                        (
+                                            [material] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [MAT_ID] => 634069
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [MAT_DILER_ID] => lkulagin
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [PART_NO] => UEVUYCAN3HG
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [MODEL] => ОАО ЦементБухТеле
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [NAME] => Cum non laboriosam quidem deleniti praesentium.
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [8] => Array
+                                        (
+                                            [material] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [MAT_ID] => 47774
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [MAT_DILER_ID] => marina98
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [PART_NO] => QHUGRWHJ
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [MODEL] => ОАО ЖелДор
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [NAME] => Enim omnis temporibus deserunt consequatur est magni voluptas.
+                                                        )
+
+                                                )
+
+                                        )
+
+                                    [9] => Array
+                                        (
+                                            [material] => Array
+                                                (
+                                                    [0] => Array
+                                                        (
+                                                            [MAT_ID] => 2596
+                                                        )
+
+                                                    [1] => Array
+                                                        (
+                                                            [MAT_DILER_ID] => nazarov.arkadii
+                                                        )
+
+                                                    [2] => Array
+                                                        (
+                                                            [PART_NO] => VEZCOSVO
+                                                        )
+
+                                                    [3] => Array
+                                                        (
+                                                            [MODEL] => ЗАО ОблТранс
+                                                        )
+
+                                                    [4] => Array
+                                                        (
+                                                            [NAME] => Veritatis eius perferendis iure temporibus aut.
+                                                        )
+
+                                                )
+
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

@@ -1,7 +1,7 @@
 <?php
 
 $host = 'localhost:C:\Program Files\Firebird\Firebird_2_5\data\test.fdb';
-$username = 'sysdbaqq';
+$username = 'sysdba';
 $password = 'masterkey';
 
 function exception_error_handler($severity, $message, $file, $line) {
@@ -18,7 +18,11 @@ set_error_handler("exception_error_handler");
 //echo error_reporting();
 
 try {
+<<<<<<< HEAD
     $dbh = ibase_connect($hosta, $username, $password, 'utf-8');
+=======
+    $dbh = ibase_connect($host, $username, $password, 'utf-8');
+>>>>>>> c56a91e1a950d1f8c0e93a2e97bd1f1e88428e7f
 } catch (ErrorException $e) {
     echo 'error<br>';
     echo $e->getCode().'<br>';
@@ -41,7 +45,11 @@ if (!$dbh) {
     echo ibase_errmsg() . '<br>';
 }
 
+<<<<<<< HEAD
 $preparedSQL = ibase_prepare('insert into corr values (\'gfuakga\', \'haixhajxabjk\')');
+=======
+$preparedSQL = ibase_prepare('insert into corr values (2, \'haixhajxabjk\')');
+>>>>>>> c56a91e1a950d1f8c0e93a2e97bd1f1e88428e7f
 
 if (!$preparedSQL) {
     echo 'preparing error'. '<br>';
@@ -61,7 +69,11 @@ if (is_integer($sth)) {
         echo ibase_errmsg() . '<br>';
 }
 
+<<<<<<< HEAD
 $preparedSQL = ibase_prepare('update corr set CORR_ID =  3 where CORR_ID=1');
+=======
+$preparedSQL = ibase_prepare('update corr set CORR_ID =  1 where CORR_ID=3');
+>>>>>>> c56a91e1a950d1f8c0e93a2e97bd1f1e88428e7f
 
 if (!$preparedSQL) {
     echo 'preparing error';

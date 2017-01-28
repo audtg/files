@@ -5,4 +5,5 @@ session_unset();
 session_destroy();
 setcookie(session_name(),false,0,'/');
 
-echo '<a href="index.php">Home</a>';
+echo '<a href="index-1.php">Home</a>';
+

@@ -19,6 +19,23 @@
             font-size: 13px;
             margin: 15px 0 0 0;
         }
+
+        .simple{
+            color: #444;
+            font-family: Calibri;
+            margin-left: 7px;
+            font-size: 18px;
+            font-weight: 700;
+            opacity: 0.8;
+            text-decoration: none;
+        }
+
+        .simple:hover{
+            color: blue;
+            opacity: 0.7;
+            text-decoration: underline;
+        }
+
     </style>
     <link rel="stylesheet" href="colorbox/colorbox.css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -26,6 +43,7 @@
 
 </head>
 <body>
+
 
 <?php
 
@@ -40,6 +58,27 @@
 //    }
 //}
 require_once 'getNames.php';
+require_once $_SERVER['DOCUMENT_ROOT'].'/exceptions/one_tag.php';
+//require_once $_SERVER['DOCUMENT_ROOT'].'/curl/index.php';
+//
+//c();
+
+function test() {
+    require $_SERVER['DOCUMENT_ROOT'].'/exceptions/one_tag.php';
+    require_once $_SERVER['DOCUMENT_ROOT'].'/exceptions/two_tags.php';
+
+    if ($a + 3 == 10) {
+        echo '<form method="post" action="../">';
+
+        return 10;
+    }
+
+return ($a == 7) ? 'a='.$a : 'not exists';
+}
+
+echo test();
+
+//var_dump(curl_version());
 
 foreach ($result as $category => $files) {
     echo '<div><a href="getCategoryFromDb.php?category=' . $category . '">download ' . $category . '</a>

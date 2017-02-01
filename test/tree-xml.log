@@ -1,0 +1,146 @@
+Array
+(
+    [info] => Array
+        (
+            [created] => 27.01.2017 08:24
+        )
+
+    [0] => Array
+        (
+            [materials] => Array
+                (
+                    [0] => Array
+                        (
+                            [material] => Array
+                                (
+                                    [MAT_ID] => 9
+                                    [MAT_DILER_ID] => martynov.vladislav
+                                    [PART_NO] => GBABW,K7PGVW
+                                    [MODEL] => ООО АсбоцементЛифт
+                                    [NAME] => Totam nostrum minus quia corrupti aliquam unde.
+                                )
+
+                        )
+
+                    [1] => Array
+                        (
+                            [material] => Array
+                                (
+                                    [MAT_ID] => 826368652
+                                    [MAT_DILER_ID] => olytkin
+                                    [PART_NO] => SIKHC><IF1>I<T
+                                    [MODEL] => ОАО, Т","верь,Тверь
+                                    [NAME] => Aperiam eos in quaerat consequuntur aperiam fugiat pariatur a.
+                                )
+
+                        )
+
+                    [2] => Array
+                        (
+                            [material] => Array
+                                (
+                                    [MAT_ID] => 43151138
+                                    [MAT_DILER_ID] => prokorov.anastasiy
+                                    [PART_NO] => VFQD"OCAI
+                                    [MODEL] => ОАО Урал"Тверь
+                                    [NAME] => Expedita corrupti suscipit eveniet quia.
+                                )
+
+                        )
+
+                    [3] => Array
+                        (
+                            [material] => Array
+                                (
+                                    [MAT_ID] => 1
+                                    [MAT_DILER_ID] => ekaterina.kulagin
+                                    [PART_NO] => DBVFNRQW
+                                    [MODEL] => ООО Рос
+                                    [NAME] => Esse aliquid consequuntur occaecati odit deleniti repudiandae.
+                                )
+
+                        )
+
+                    [4] => Array
+                        (
+                            [material] => Array
+                                (
+                                    [MAT_ID] => 5
+                                    [MAT_DILER_ID] => semen35
+                                    [PART_NO] => UFLPUR2ZG4H
+                                    [MODEL] => ООО Ком"пания ЖелДорЦемент
+                                    [NAME] => Repellat eveniet sapiente velit veniam harum.
+                                )
+
+                        )
+
+                    [5] => Array
+                        (
+                            [material] => Array
+                                (
+                                    [MAT_ID] => 0
+                                    [MAT_DILER_ID] => srybov
+                                    [PART_NO] => DOSPBGSN90E
+                                    [MODEL] => ЗАО ТекстильТверь
+                                    [NAME] => Qui voluptatum ex aut.
+                                )
+
+                        )
+
+                    [6] => Array
+                        (
+                            [material] => Array
+                                (
+                                    [MAT_ID] => 369517
+                                    [MAT_DILER_ID] => dzykov
+                                    [PART_NO] => QGSBXTTG
+                                    [MODEL] => ОАО Креп
+                                    [NAME] => Natus non aut et atque repellendus ut dolor.
+                                )
+
+                        )
+
+                    [7] => Array
+                        (
+                            [material] => Array
+                                (
+                                    [MAT_ID] => 634069
+                                    [MAT_DILER_ID] => lkulagin
+                                    [PART_NO] => UEVUYCAN3HG
+                                    [MODEL] => ОАО ЦементБухТеле
+                                    [NAME] => Cum non laboriosam quidem deleniti praesentium.
+                                )
+
+                        )
+
+                    [8] => Array
+                        (
+                            [material] => Array
+                                (
+                                    [MAT_ID] => 47774
+                                    [MAT_DILER_ID] => marina98
+                                    [PART_NO] => QHUGRWHJ
+                                    [MODEL] => ОАО ЖелДор
+                                    [NAME] => Enim omnis temporibus deserunt consequatur est magni voluptas.
+                                )
+
+                        )
+
+                    [9] => Array
+                        (
+                            [material] => Array
+                                (
+                                    [MAT_ID] => 2596
+                                    [MAT_DILER_ID] => nazarov.arkadii
+                                    [PART_NO] => VEZCOSVO
+                                    [MODEL] => ЗАО ОблТранс
+                                    [NAME] => Veritatis eius perferendis iure temporibus aut.
+                                )
+
+                        )
+
+                )
+
+        )
+
+)

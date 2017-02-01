@@ -29,6 +29,9 @@
 <a href="download-csv.php">csv</a>
 <?php
 
+$pureDesription = strip_tags('<p>Lorem jefggf jjefbgfiegfuefeu <b>egfuegfu kfsk</b> jfbsekfsv. Gfyufdyd fjkjge jhegh hfgef.</p>');
+$firstParagraph = substr($str, 0, strpos($str, '.') + 1);
+
 
 //foreach (scandir(ini_get('session.save_path')) as $value) {
 //
@@ -64,7 +67,7 @@ foreach ($result as $category => $files) {
                     jQuery.each(data, function (index, item) {
                         jQuery('body')
                             .append(jQuery('<a>').attr({href: '#' + category + index}).addClass('box'))
-//                            .append(jQuery('<div onClick="jQuery.colorbox.next();">')
+                            //                            .append(jQuery('<div onClick="jQuery.colorbox.next();">')
                             .append(jQuery('<div>').attr({onClick: "jQuery.colorbox.next();"})
                                 .addClass('invis')
                                 .css({display: 'none'})

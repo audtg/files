@@ -37,7 +37,6 @@ function getNames() {
     return $result;
 }
 
-
 function getNamesByCategory($category) {
     $result = array();
     $preparedSQL = ibase_prepare('SELECT NAME FROM MYPICTURES WHERE CATEGORY= ? ORDER BY NAME');

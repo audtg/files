@@ -1,6 +1,10 @@
 <?php
 session_start();
+
+//header('Location: /sessions');
 var_dump($_COOKIE);
+var_dump($_REQUEST);
+
 
 var_dump($_SESSION);
 
@@ -22,6 +26,7 @@ foreach (scandir(ini_get('session.save_path')) as $value) {
 
     }
 }
+
 ?>
 <!DOCTYPE html>
 <html lang="en">

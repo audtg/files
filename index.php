@@ -43,20 +43,10 @@
 
 </head>
 <body>
-<<<<<<< HEAD
 
 
 <?php
 
-=======
-<a href="download-csv.php">csv</a>
-<?php
-
-$pureDesription = strip_tags('<p>Lorem jefggf jjefbgfiegfuefeu <b>egfuegfu kfsk</b> jfbsekfsv. Gfyufdyd fjkjge jhegh hfgef.</p>');
-$firstParagraph = substr($str, 0, strpos($str, '.') + 1);
-
-
->>>>>>> c56a91e1a950d1f8c0e93a2e97bd1f1e88428e7f
 //foreach (scandir(ini_get('session.save_path')) as $value) {
 //
 //    foreach ($_COOKIE as $cookieName => $cookieValue) {
@@ -68,38 +58,19 @@ $firstParagraph = substr($str, 0, strpos($str, '.') + 1);
 //    }
 //}
 require_once 'getNames.php';
-<<<<<<< HEAD
+
 require_once $_SERVER['DOCUMENT_ROOT'].'/exceptions/one_tag.php';
-//require_once $_SERVER['DOCUMENT_ROOT'].'/curl/index.php';
+//require_once $_SERVER['DOCUMENT_ROOT'].'/curl/get-file.php';
 //
 //c();
 
-function test() {
-    require $_SERVER['DOCUMENT_ROOT'].'/exceptions/one_tag.php';
-    require_once $_SERVER['DOCUMENT_ROOT'].'/exceptions/two_tags.php';
 
-    if ($a + 3 == 10) {
-        echo '<form method="post" action="../">';
 
-        return 10;
-    }
-
-return ($a == 7) ? 'a='.$a : 'not exists';
-}
-
-echo test();
-
-//var_dump(curl_version());
-=======
->>>>>>> c56a91e1a950d1f8c0e93a2e97bd1f1e88428e7f
 
 foreach ($result as $category => $files) {
     echo '<div><a href="getCategoryFromDb.php?category=' . $category . '">download ' . $category . '</a>
     <span style="padding-right: 50px;"></span>';
-<<<<<<< HEAD
 
-=======
->>>>>>> c56a91e1a950d1f8c0e93a2e97bd1f1e88428e7f
     echo '<button class="colorbox" id="' . $category . '">' . $category . '</button></div><br>';
 
     foreach ($files as $file) {
@@ -144,9 +115,6 @@ foreach ($result as $category => $files) {
         }
     );
 </script>
-<<<<<<< HEAD
 
-=======
->>>>>>> c56a91e1a950d1f8c0e93a2e97bd1f1e88428e7f
 </body>
 </html>

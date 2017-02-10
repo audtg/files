@@ -1,10 +1,10 @@
 <?php
 
-require_once __DIR__ . '/PHPExcel/Classes/PHPExcel.php';
-require_once __DIR__ . '/PHPExcel/Classes/PHPExcel/Writer/IWriter.php';
-require_once __DIR__ . '/PHPExcel/Classes/PHPExcel/Writer/Abstract.php';
-require_once __DIR__ . '/PHPExcel/Classes/PHPExcel/Writer/CSV.php';
-require_once __DIR__ . '/../Faker/src/autoload.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/PHPExcel/Classes/PHPExcel.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/PHPExcel/Classes/PHPExcel/Writer/IWriter.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/PHPExcel/Classes/PHPExcel/Writer/Abstract.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/PHPExcel/Classes/PHPExcel/Writer/CSV.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/Faker/src/autoload.php';
 
 function exception_error_handler($severity, $message, $file, $line)
 {
@@ -54,13 +54,13 @@ for ($i = 1; $i <= count($info); $i++) {
 
 }
 
-$objWriter = new PHPExcel_Writer_CSV($objPHPExcel);
-
-$filename = 'info.csv';
-
-$objWriter->save($filename);
+//$objWriter = new PHPExcel_Writer_CSV($objPHPExcel);
+//
+//$filename = 'info.csv';
+//
+//$objWriter->save($filename);
 
 header('Content-Type: text/csv');
 header('Content-disposition: attachment; filename=' . 'info.csv');
-readfile('info.csv');
+//readfile('info.csv');
 //unlink($filename);

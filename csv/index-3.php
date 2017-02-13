@@ -26,7 +26,7 @@ $info = array();
 $info[] = array(0 => 'hvhv', 1 => 'fffuvfu', 5=> 'hfvhv', 6 => 'jdbjda', 9 => 'kjdbjabd');
 $info[] = array(1 => 'hvhv', 2 => 'fffuvfu', 3=> 'hfvhv', 4 => 'jdbjda', 7 => 'kjdbjabd');
 $info[] = array(0 => 'hvhv', 4 => 'fffuvfu', 5=> 'hfvhv', 7 => 'jdbjda', 8 => 'kjdbjabd');
-var_dump($info);
+
 
 array_walk($info, function(&$row, $key, $fields) {
     $diff = array_diff_key($fields, $row);
@@ -34,21 +34,22 @@ array_walk($info, function(&$row, $key, $fields) {
     ksort($row);
 }, $fields);
 
-var_dump($info);
+array_unshift($info, $fields);
+
+$sheet->fromArray($info);
 
 
 
 
 
 
-
-//$objWriter = new PHPExcel_Writer_CSV($objPHPExcel);
+$objWriter = new PHPExcel_Writer_CSV($objPHPExcel);
 //
-//$filename = 'info-1.csv';
+$filename = 'info-3.csv';
 //
-//$objWriter->save($filename);
+$objWriter->save($filename);
 //
-//header('Content-Type: text/csv');
-//header('Content-disposition: attachment; filename=' . $filename);
-//readfile($filename);
-//unlink($filename);
+header('Content-Type: text/csv');
+header('Content-disposition: attachment; filename=' . $filename);
+readfile($filename);
+unlink($filename);
